@@ -1,9 +1,10 @@
 var rsp = window.array;
-var rand = Math.floor(Math.random() * rsp.length);
+var rand;
 var intervalId = false;
 
 function load() {
   $('#question').text(rsp[rand].question);
+  rand = Math.floor(Math.random() * rsp.length);
   for (let i = 0; i < rsp[rand].answer.length; i++) {
     var btn = $('<button class="btn">');
     btn.text(rsp[rand].answer[i].value);
@@ -36,7 +37,6 @@ function reset() {
       $("#time").text('Time Out');
     }
   }, 1000);
-  rand = Math.floor(Math.random() * rsp.length);
 }
 
 $(".btn").click(function () {
