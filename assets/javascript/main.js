@@ -3,8 +3,8 @@ var rand;
 var intervalId = false;
 
 function load() {
-  $('#question').text(rsp[rand].question);
   rand = Math.floor(Math.random() * rsp.length);
+  $('#question').text(rsp[rand].question);
   for (let i = 0; i < rsp[rand].answer.length; i++) {
     var btn = $('<button class="btn">');
     btn.text(rsp[rand].answer[i].value);
