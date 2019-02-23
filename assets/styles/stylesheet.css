@@ -1,0 +1,28 @@
+body{
+    background-image: url("../images/background.jpeg");
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header{
+    font-size: 200px;
+    margin: 10px;
+}
+
+.main{
+    font-size: 100px;
+    margin: 10px;
+}
+
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
