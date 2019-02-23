@@ -1,4 +1,4 @@
-[
+var array = [
     {
         "question": "What part of the human body contains five metacarpal bones?",
         "answer": [
@@ -18,7 +18,8 @@
                 "value": "The Shoulder",
                 "correct": false
             }
-        ]
+        ],
+        "index": 0
     },
     {
         "question": "The process of making cow’s milk safe for human consumption is called what?",
@@ -39,7 +40,8 @@
                 "value": "Curdling",
                 "correct": false
             }
-        ]
+        ],
+        "index": 2
     },
     {
         "question": "The song Seventy-Six Trombones first appeared in what 1957 musical play?",
@@ -60,7 +62,8 @@
                 "value": "The Music Man",
                 "correct": true
             }
-        ]
+        ],
+        "index": 3
     },
     {
         "question": "In the sitcom Family Matters and film Die Hard, actor Reginald VelJohnson’s character had what occupation?",
@@ -81,7 +84,8 @@
                 "value": "EMT",
                 "correct": false
             }
-        ]
+        ],
+        "index": 0
     },
     {
         "question": "Which French post-Impressionist artist painted A Sunday Afternoon on the Island of La Grande Jatte?",
@@ -102,7 +106,8 @@
                 "value": "Paul Sigmac",
                 "correct": false
             }
-        ]
+        ],
+        "index": 1
     },
     {
         "question": "Who was the host of the American travel and food show No Reservations?",
@@ -123,7 +128,8 @@
                 "value": "Roy Choi",
                 "correct": false
             }
-        ]
+        ],
+        "index": 1
     },
     {
         "question": "In 1952, Albert Einstein was offered the presidency of which country?",
@@ -133,7 +139,7 @@
                 "correct": false
             },
             {
-                "value": "United States",
+                "value": "Jordan",
                 "correct": false
             },
             {
@@ -144,6 +150,7 @@
                 "value": "Syria",
                 "correct": false
             }
-        ]
+        ],
+        "index": 2
     } 
-]
+];

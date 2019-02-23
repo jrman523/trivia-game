@@ -13,16 +13,48 @@ body{
 .header{
     font-size: 200px;
     margin: 10px;
+    padding:10px;
 }
 
 .main{
-    font-size: 100px;
-    margin: 10px;
+    font-size: 40px;
+    margin: 20px;
 }
 
 .italic{
     font-style: italic;
 }
+
 .bold{
     font-weight: bold;
+}
+
+.answer{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.red{
+    color: red;
+}
+
+.btn{
+    width: 100%;
+    padding:10px;
+    margin:10px;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+.btn:focus{
+    outline: none !important;
+    background-color: #272d38;
+    color:white;
 }
