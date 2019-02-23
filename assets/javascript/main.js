@@ -13,7 +13,7 @@ function load() {
   intervalId = false;
 }
 load();
-var time = 5;
+var time = 60;
 var timer = setInterval(function () {
   $("#time").text('Time Left: ' + time-- + ' Seconds');
   if (time === 0) {
