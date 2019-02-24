@@ -65,6 +65,8 @@ body{
     padding:10px;
     margin:10px;
     cursor: pointer;
+    border: none;
+    font-size: 40px;
   }
   
   .btn-start:hover {
